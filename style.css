@@ -1,0 +1,217 @@
+body{
+margin:0;
+font-family:Verdana;
+background:#eef2ff;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+
+.topbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 50px;
+background:#1e293b;
+color:white;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.brand{
+color:#60a5fa;
+}
+
+.menu{
+list-style:none;
+display:flex;
+}
+
+.menu li{
+margin:10px;
+}
+
+.menu a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+transition:0.3s;
+}
+
+.menu a:hover{
+color:#60a5fa;
+}
+
+#mode{
+background:#6366f1;
+border:none;
+color:white;
+padding:6px 12px;
+border-radius:6px;
+cursor:pointer;
+}
+
+
+/* INTRO */
+
+.intro-section{
+display:flex;
+justify-content:center;
+align-items:center;
+padding:80px;
+background:linear-gradient(120deg,#6366f1,#a855f7);
+color:white;
+}
+
+.intro-image img{
+width:250px;
+height:250px;
+object-fit:cover;
+border-radius:50%;
+margin-left:40px;
+border:5px solid white;
+}
+
+.resume-btn{
+display:inline-block;
+background:white;
+color:#6366f1;
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+margin-top:20px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.resume-btn:hover{
+background:#1e293b;
+color:white;
+}
+
+.icons i{
+font-size:22px;
+margin:10px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.icons i:hover{
+transform:scale(1.2);
+color:#60a5fa;
+}
+
+
+/* ABOUT */
+
+.about-section{
+background:white;
+padding:100px 120px;
+text-align:center;
+}
+
+.about-container{
+max-width:900px;
+margin:auto;
+}
+
+.about-container p{
+font-size:18px;
+line-height:1.8;
+margin-bottom:20px;
+color:#334155;
+}
+
+
+/* SKILLS */
+
+.skills-section{
+padding:80px;
+text-align:center;
+}
+
+.skills-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.skill-card{
+background:white;
+padding:20px 35px;
+margin:12px;
+border-radius:10px;
+font-weight:bold;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.skill-card i{
+margin-right:10px;
+color:#6366f1;
+}
+
+.skill-card:hover{
+transform:translateY(-8px);
+background:#6366f1;
+color:white;
+}
+
+
+/* PROJECTS */
+
+.project-section{
+padding:80px;
+text-align:center;
+}
+
+.project-list{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+width:260px;
+margin:15px;
+padding:25px;
+border-radius:12px;
+box-shadow:0 12px 25px rgba(0,0,0,0.15);
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.project-icon{
+font-size:40px;
+color:#6366f1;
+margin-bottom:10px;
+}
+
+
+/* CONTACT */
+
+.contact-section{
+background:#1e293b;
+color:white;
+padding:70px;
+text-align:center;
+}
+
+
+/* FOOTER */
+
+footer{
+background:#020617;
+color:white;
+text-align:center;
+padding:15px;
+}
